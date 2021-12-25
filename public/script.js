@@ -154,3 +154,11 @@ socket.on("createMessage", (message, userName) => {
       </div>`;
 });
   
+
+// const leaveCall = document.querySelector("#leaveCall")
+
+// leaveCall.addEventListener("click", (e) => {
+//  console.log("10")
+//  window.close();
+// })
+

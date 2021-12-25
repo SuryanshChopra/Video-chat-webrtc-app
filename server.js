@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000
 const { Console } = require('console')
 const express = require('express')
 const app = express()
@@ -31,4 +32,4 @@ io.on('connection', socket => {
     })
 })
 
-server.listen(3000)
+server.listen(PORT)
