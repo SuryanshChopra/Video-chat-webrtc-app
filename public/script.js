@@ -22,7 +22,7 @@ const user = prompt("Enter your name");
 
 const myPeer = new Peer(undefined, {
     host: '/',
-    port: '3001'
+    port: '443'
 })
 
 const myVideo = document.createElement('video')
