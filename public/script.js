@@ -21,7 +21,7 @@ showChat.addEventListener("click", () => {
 const user = prompt("Enter your name");
 
 const myPeer = new Peer(undefined, {
-    host: 'videochatwebrtcapp.herokuapp.com/',
+    host: '/',
     port: '3001'
 })
 
