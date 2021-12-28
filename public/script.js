@@ -23,6 +23,8 @@ const user = prompt("Enter your name");
 const myPeer = new Peer(undefined, {
     host: 'https://videochatwebrtcapp.herokuapp.com/',
     port: '443',
+    secure: true,
+    path: '/peerjs'
 })
 
 const myVideo = document.createElement('video')
