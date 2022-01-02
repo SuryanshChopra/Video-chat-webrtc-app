@@ -21,10 +21,8 @@ showChat.addEventListener("click", () => {
 const user = prompt("Enter your name");
 
 const myPeer = new Peer(undefined, {
-    host: 'https://videochatwebrtcapp.herokuapp.com/',
-    port: '443',
-    secure: true,
-    path: '/peerjs'
+    host: '/',
+    port: '443'
 })
 
 const myVideo = document.createElement('video')
